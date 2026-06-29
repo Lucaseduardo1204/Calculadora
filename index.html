@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="maincontent">
+
+    <div class="calculadora">
+      <input type="text" id="visor">
+      <div class="teclas">
+
+        <button class="tecla" data-acao="limpar">AC</button>
+        <button class="tecla" data-acao="inverter">+/-</button>
+        <button class="tecla" data-acao="porcentagem">%</button>
+        <button class="tecla" data-operador="/">/</button>
+
+        <button class="tecla" data-numero="7">7</button>
+        <button class="tecla" data-numero="8">8</button>
+        <button class="tecla" data-numero="9">9</button>
+        <button class="tecla" data-operador="X">X</button>
+
+        <button class="tecla" data-numero="4">4</button>
+        <button class="tecla" data-numero="5">5</button>
+        <button class="tecla" data-numero="6">6</button>
+        <button class="tecla" data-operador="-">-</button>
+
+        <button class="tecla" data-numero="1">1</button>
+        <button class="tecla" data-numero="2">2</button>
+        <button class="tecla" data-numero="3">3</button>
+        <button class="tecla" data-operador="+">+</button>
+
+        <button id="zero" class="tecla" data-numero="0">0</button>
+        <button class="tecla" data-numero=".">.</button>
+        <button class="tecla" data-igual>=</button>
+      </div>
+      <span style="color: gray; font-size: 0.5em; text-align: center;">&copy; Desenvolvido por Lucas Eduardo</span>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
